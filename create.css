@@ -1,0 +1,29 @@
+body{
+    background-color: beige;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+.create.account{
+    background-color: rgb(151, 211, 213);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px;
+    width: 300px;
+}
+h1{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 25px;
+    margin-right: 20px;
+}
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+input[type="text"]{
+    width: 100px;
+}

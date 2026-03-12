@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>MG Bank Plc</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="brand">
+<h1>MG Bank Plc</h1>
+<p class="tag">Your Money, Your Way!</p>
+</header>
+
+
+<main class="container">
+<section class="card">
+<h2>Create Account</h2>
+<input id="owner" placeholder="Account owner name" />
+<button id="createBtn"><a href="www.google.com">Create account</a></button>
+<p id="createResult"></p>
+</section>
+
+
+<section class="card">
+<h2>Account Actions</h2>
+<input id="accId" placeholder="Account ID" />
+<div class="row">
+<input id="amount" placeholder="Amount" />
+<button id="depositBtn">Deposit</button>
+<button id="withdrawBtn">Withdraw</button>
+</div>
+<button id="balanceBtn">Check balance</button>
+<p id="actionResult"></p>
+</section>
+
+
+<section class="card">
+<h2>Transfer</h2>
+<input id="fromId" placeholder="From account ID" />
+<input id="toId" placeholder="To account ID" />
+<input id="tAmount" placeholder="Amount" />
+<button id="transferBtn">Transfer</button>
+<p id="transferResult"></p>
+</section>
+</main>
+
+
+<footer class="footer">MG Bank Plc — Your Money, Your Way!</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
